@@ -67,7 +67,7 @@ extractHub() {
   fi
 
   #turn on source upload
-  sed -i "s/ENABLE_SOURCE_UPLOADS=/ENABLE_SOURCE_UPLOADS=1/g" "blackduck-config.env"
+  sed -i "s/ENABLE_SOURCE_UPLOADS=/ENABLE_SOURCE_UPLOADS=TRUE/g" "blackduck-config.env"
 }
 
 getAlert() {
