@@ -168,11 +168,11 @@ stopHub() {
 }
 
 deployHub() {
-  docker stack deploy -c docker-compose.yml -c docker-compose.local-overrides.yml hub
   cd $WORKING_DIR/docker-swarm
   echo "********************"
   echo "Starting Hub $HUB_RELEASE_VERSION"
   echo "********************"
+  docker stack deploy -c docker-compose.yml -c docker-compose.local-overrides.yml hub
 }
 
 deployHubAlert() {
