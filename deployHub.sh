@@ -9,7 +9,7 @@
 # 4. minimum alert version is 5.0.0 due to deployment differences in previous releases
 ###################################################################
 
-HUB_RELEASE_VERSION=2019.8.0
+HUB_RELEASE_VERSION=2019.8.1
 ALERT_RELEASE_VERSION=5.0.0
 DESTINATION_DIR="/opt"
 WORKING_DIR="${DESTINATION_DIR}/hub-${HUB_RELEASE_VERSION}"
