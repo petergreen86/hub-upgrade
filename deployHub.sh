@@ -18,11 +18,11 @@ HUB_RELEASE_VERSION=2020.2.1
 ALERT_RELEASE_VERSION=5.3.0
 DESTINATION_DIR="/opt"
 # DATABASE STUFF - CONFIGURE THIS
-DATABASE_HOST=pgreen-swarm.postgres.database.azure.com
+DATABASE_HOST=DBNAME.postgres.database.azure.com
 DATABASE_PORT=5432
 DATABASE_SSL=true
 DATABASE_USER=blackduck_user
-DATABASE_ADMIN=honadmin
+DATABASE_ADMIN=blackduck
 ###################################
 #
 # DO NOT MODIFY THE BELOW VALUES
