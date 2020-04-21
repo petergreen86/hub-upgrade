@@ -2,7 +2,7 @@
 
 ## Description
 
-An automated upgrade script for Black Duck which allows the deployment of Black Duck, or, Black Duck with Alert - this script is work-in-progress and may be subject to change/unexpected breakages. The script is supplied *as is*
+An automated upgrade script for Black Duck which allows the deployment of Black Duck, or, Black Duck with Alert - this script is work-in-progress and may be subject to change/unexpected breakages. The script is supplied *as is* with no liability and is not an official Synopsys script
 
 ## Assumptions
 
